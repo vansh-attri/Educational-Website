@@ -228,7 +228,7 @@ nav div :hover {
     text-align: center;
     color: black;
     width: 100%;
-    height: 100vh;
+    height: 120vh;
 }
 
 #courses h2 {
@@ -307,14 +307,14 @@ nav div :hover {
 }
 
 #name, #email, #phone {
-    height: 5vh;
-    width: 15vw;
+    height: 30px;
+    width: 220px;
     border-radius: 5px;
     text-align: center;
 }
 
 #message {
-    height: 15vh;
+    height: 130px;
     text-align: center;
     border-radius: 10px;
 }
@@ -327,7 +327,7 @@ nav div :hover {
 
 .container button {
     width: 180px;
-    margin-left: 4vw;
+    margin-left: 30px;
     height: 30px;
     border-radius: 5px;
     background-color: #beb4ff;
@@ -335,6 +335,42 @@ nav div :hover {
     cursor: pointer;
 }
 
-.container button img {
+.container a {
+    text-decoration: none;
+    color: black;
+}
 
+/* footer */
+
+.footer {
+    background-color: #beb4ff;
+    height: 350px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 30px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.mid_footer li{
+    list-style: none;
+    padding: 10px;
+}
+
+.mid_footer li a {
+    text-decoration: none;
+}
+.mid_footer li :hover{
+    color: #9e1818;
+}
+
+.footer div img {
+    width: 30px;
+    cursor: pointer;
+    margin-top: 15px;
+    height: 30px;
+}
+
+.right_footer li {
+    list-style: none;
 }
