@@ -296,6 +296,16 @@ nav img {
     border: 2px solid #beb4ff;
 }
 
+#contact textarea {
+    border: 2px solid #beb4ff;
+    text-align: center;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+}
+
 #name,
 #email,
 #phone {

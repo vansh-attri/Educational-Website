@@ -158,14 +158,16 @@
                 </ul>
             </div>
             <div class="contact_right">
-                <input type="text" placeholder="Name" id="name">
-                <input type="text" placeholder="Email" id="email">
-                <input type="text" placeholder="Phone Number" id="phone">
-                <input type="text" placeholder="Message" id="message">
-                <button>
-                    Send Message
-                    <!-- <img src="Images/logo4.jpg" alt=""> -->
-                </button>
+                <form onsubmit="sendemail(); reset(); return false;">
+                    <input type="text" placeholder="Name" id="name">
+                    <input type="text" placeholder="Email" id="email">
+                    <input type="text" placeholder="Phone Number" id="phone">
+                    <textarea placeholder="Message" rows="6" id="message"></textarea>
+                    <button type="submit">
+                        Send Message
+                        <!-- <img src="Images/logo4.jpg" alt=""> -->
+                    </button>
+                </form>
             </div>
         </div>
     </section>
@@ -197,6 +199,7 @@
             </div>
         </div>
     </footer>
+    <script src="//smtpjs.com/v3/smtp.js"></script>
     <script src="script.js"></script>
 </body>
 
