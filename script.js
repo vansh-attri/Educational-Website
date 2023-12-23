@@ -23,6 +23,6 @@ function sendemail() {
       + " <br> Phone No: " + document.getElementById('phone').value
       + " <br> Message: " + document.getElementById('message').value
   }).then(
-      message => alert(message)
+      message => alert('Message Sent Successfully!')
   );
 }
